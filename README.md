@@ -6,11 +6,11 @@ For any inquiries, please contact Ioannis Panitsas at [ioannis.panitsas@yale.edu
 
 ## Dataset
 
-Each dataset corresponds to a specific jamming type. You can access the raw files in the `data` folder:
+Each dataset corresponds to a specific jamming type. We have implemented three types of jammers: constant, random, and reactive, each with varying output power and different jamming signals. You can access the raw files in the `data` folder:
 
-- [Normal Channel](data/normal_channel.csv)
-- [Constant Jammer](data/constant_jammer.csv)
-- [Random Jammer](data/random_jammer.csv)
+- [Normal Channel](data/)
+- [Constant Jammer](data/)
+- [Random Jammer](data/)
 
 Each dataset file contains the following columns:
 
