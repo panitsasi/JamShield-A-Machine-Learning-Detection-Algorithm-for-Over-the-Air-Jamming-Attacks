@@ -5,10 +5,9 @@ This repository contains the dataset used in the research paper "**JamShield: A 
 For any inquiries, please contact Ioannis Panitsas at [ioannis.panitsas@yale.edu](mailto:ioannis.panitsas@yale.edu).
 
 ## Threat Model
-In this work, we assume that a powerful jammer disrupts all types of communications within a particular frequency range, affecting all three 802.11 user channels (channels 1, 6, and 11) in the 2.4 GHz band by broadcasting Additive White Gaussian Noise (AWGN) or or by emitting single tones and pulses. Additionally, we assume this signal blocks all communications between the nodes, thereby partially disabling communication among the surrounding nodes within the jamming radius.
+In this work, we assume that a powerful jammer disrupts all types of communications within a specific frequency range, affecting all three 802.11 user channels (channels 1, 6, and 11) in the 2.4 GHz band by broadcasting Additive White Gaussian Noise (AWGN) or by emitting single tones and pulses. Additionally, we assume that this signal blocks all communications between nodes, thereby partially disabling communication among surrounding nodes within the jamming radius.
 
 ## Dataset
-
 Each dataset corresponds to a specific jamming type. We have implemented three types of jammers: constant, random, and reactive, each with varying output power and different jamming signals.We also include datasets without the presence of a jammer. You can access the raw files in the `data` folder:
 
 - [Constant Jammer](data/)
