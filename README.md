@@ -62,17 +62,15 @@ The jammers were implemented using GNURadio. Below is one the flow graphs that w
 ## Testbed Setup 
 Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server (for training/inference of our ML model).
 
-Wireless Nodes: Each wireless node is a Linux PC with an Intel WLAN 8265/8275 wireless network adapter supporting 802.11 standards.
+- **Wireless Nodes:** Each wireless node is a Linux PC with an Intel WLAN 8265/8275 wireless network adapter supporting 802.11 standards.
 
-OnePlus 8T: Each smartphone is equipped with the Qualcomm FastConnect 6900 Wi-Fi chipset. The initial locations of the smartphones are illustrated in Figure 2. During our experiments, the smartphones were placed in various locations within the lab at random intervals.
+- **OnePlus 8T Smartphones:** Each smartphone is equipped with the Qualcomm FastConnect 6900 Wi-Fi chipset. The initial locations of the smartphones are illustrated in Figure 2. During our experiments, the smartphones were placed in various locations within the lab at random intervals.
 
-Wireless Access Point: In this work, we utilized the ASUS RT-AX88U Pro as the AP. This device supports wireless standards, including 802.11, and operates simultaneously in dual-band (2.4 GHz and 5 GHz) modes. It features 2x2 antennas for enhanced beamforming and supports channel capacities ranging from 20 to 160 MHz, with a maximum output power of 20 dBm.
+- **Wireless Access Point (AP):** In this work, we utilized the ASUS RT-AX88U Pro as the AP. This device supports wireless standards, including 802.11, and operates simultaneously in dual-band (2.4 GHz and 5 GHz) modes. It features 2x2 antennas for enhanced beamforming and supports channel capacities ranging from 20 to 160 MHz, with a maximum output power of 20 dBm.
 
-USRP X310: For generating and transmitting malicious interference signals, we employed the USRP X310 radio from Ettus Research. This open-source Software Defined Radio (SDR) platform features two extended-bandwidth daughter-board slots, supporting frequencies ranging from 10 MHz to 6 GHz. It is equipped with two individually configurable RF channels, each capable of operating at a maximum sample rate of 200 Msps and providing an adequate bandwidth of 160 MHz. Additionally, it has a maximum output power exceeding 20 dBm.
+- **USRP X310:** For generating and transmitting malicious interference signals, we employed the USRP X310 radio from Ettus Research. This open-source Software Defined Radio (SDR) platform features two extended-bandwidth daughter-board slots, supporting frequencies ranging from 10 MHz to 6 GHz. It is equipped with two individually configurable RF channels, each capable of operating at a maximum sample rate of 200 Msps and providing an adequate bandwidth of 160 MHz. Additionally, it has a maximum output power exceeding 20 dBm.
 
-Edge Server: For the training and inference of our proposed **JamShield** ML based model, we utilized a customized edge server equipped with an AMD EPYC 7352 2.3
-GHz 24-core processor, 128 GB of DDR4 RAM, and four NVIDIA RTX A5000 GPUs, each with 24 GB of memory.
-
+- **Edge Server:** For the training and inference of our proposed **JamShield** ML-based model, we utilized a customized edge server equipped with an AMD EPYC 7352 2.3 GHz 24-core processor, 128 GB of DDR4 RAM, and four NVIDIA RTX A5000 GPUs, each with 24 GB of memory.
 The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
