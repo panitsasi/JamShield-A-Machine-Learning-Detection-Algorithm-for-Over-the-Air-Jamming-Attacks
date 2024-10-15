@@ -57,13 +57,12 @@ The jammers were implemented using GNURadio. Below is the flow graph used for th
 Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server (for training/inference of our ML model),
 The testbed setup for the experiments is illustrated below:
 
-<img src="testbed_setup.png" alt="Testbed Setup" width="600" /> 
-<img src="edge_server.png" alt="Edge Server" width="600" height="550" />
+<img src="testbed_setup.png" alt="Testbed Setup" width="400" height="400" /> 
+<img src="edge_server.png" alt="Edge Server" width="400" height="400" />
 
 ### Reference Scenarios
 
-To mimic both ideal and challenging link characteristics, we considered two different configurations, referred to as the Line Of Sight(LOS) scenario and the Non-Line Of Sight (NLOS) scenario.
-In the first scenario, we deployed the jammer in the middle of the lab at a height of three meters, with the wireless nodes positioned around the lab at a distance of six meters and at a height of one meter. The jammer maintained a LOS with the wireless nodes, allowing it to generate interference signals that propagated directly to them without obstruction or multipath reflection. In the second scenario, the jammer was placed in a different location, at a height of one meter. To create an NLOS condition, we obstructed the jammer’s signals with a metallic surface and reduced the transmit power by adding attenuation elements at
+To mimic both ideal and challenging link characteristics, we considered two different configurations, referred to as the Line Of Sight (LOS) scenario and the Non-Line Of Sight (NLOS) scenario. In the first scenario, we deployed the jammer in the middle of the lab at a height of three meters, with the wireless nodes positioned around the lab at a distance of six meters and at a height of one meter. The jammer maintained a LOS with the wireless nodes, allowing it to generate interference signals that propagated directly to them without obstruction or multipath reflection. In the second scenario, the jammer was placed in a different location, at a height of one meter. To create an NLOS condition, we obstructed the jammer’s signals with a metallic surface and reduced the transmit power by adding attenuation elements at
 the output of the radio front-end.
 #### Line of Sight (LOS) Scenario
 <img src="LOS_scenario.png" alt="LOS Scenario" width="400" />
