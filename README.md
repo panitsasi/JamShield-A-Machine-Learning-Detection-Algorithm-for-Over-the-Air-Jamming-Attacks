@@ -57,7 +57,7 @@ Each dataset file contains the following features:
 The jammers were implemented using GNURadio. Below is one the flow graphs that were used for implementing the jammers.
 
 **Flow Graph**
-<img src="/flow_graph.jpg" alt="Flow Graph" width="800" />
+<img src="/flow_graph.jpg" alt="Flow Graph" width="700" />
 
 ## Testbed Setup 
 Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server (for training/inference of our ML model).
