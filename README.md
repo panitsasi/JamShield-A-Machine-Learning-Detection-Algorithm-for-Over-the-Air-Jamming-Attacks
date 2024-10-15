@@ -57,12 +57,8 @@ The jammers were implemented using GNURadio. Below is the flow graph used for th
 Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server (for training/inference of our ML model),
 The testbed setup for the experiments is illustrated below:
 
-<div style="display: inline-block; margin-right: 20px;">
-    <img src="testbed_setup.png" alt="Testbed Setup" width="600" />
-</div>
-<div style="display: inline-block;">
-    <img src="edge_server.png" alt="Edge Server" width="600" height="500" />
-</div>
+<img src="testbed_setup.png" alt="Testbed Setup" width="600" /> 
+<img src="edge_server.png" alt="Edge Server" width="600" height="550" />
 
 ### Reference Scenarios
 
