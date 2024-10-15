@@ -53,10 +53,8 @@ Each dataset file contains the following features:
     <img src="noise.png" alt="Noise" width="800" />
 </div>
 
-## Implementation
+## Implementation (Flow Graph)
 The jammers were implemented using GNURadio. Below is one the flow graphs that were used for implementing the jammers.
-
-## Flow Graph
 <img src="/flow_graph.jpg" alt="Flow Graph" width="700" />
 
 ## Testbed Setup 
