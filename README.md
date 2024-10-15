@@ -74,8 +74,8 @@ Our experimental setup is deployed in an area of 80 m². It includes three fixed
 The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="testbed_setup.png" alt="Testbed Setup" width="450" height="400" style="margin: 50px;"/> 
-    <img src="edge_server.png" alt="Edge Server" width="450" height="400" />
+    <img src="testbed_setup.png" alt="Testbed Setup" width="350" height="350" style="margin: 50px;"/> 
+    <img src="edge_server.png" alt="Edge Server" width="350" height="350" />
 </div>
 
 ### Reference Scenarios
@@ -85,8 +85,8 @@ the output of the radio front-end.
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="LOS_scenario.png" alt="LOS Scenario" width="450" style="margin: 50px;"/> 
-    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="450"  />
+    <img src="LOS_scenario.png" alt="LOS Scenario" width="350" style="margin: 50px;"/> 
+    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="350"  />
 </div>
 
 
