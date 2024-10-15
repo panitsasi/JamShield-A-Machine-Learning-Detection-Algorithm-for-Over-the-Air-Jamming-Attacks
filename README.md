@@ -53,13 +53,11 @@ The jammers were implemented using GNURadio. Below is the flow graph used for th
 **Flow Graph**
 <img src="/flow_graph.jpg" alt="Flow Graph" width="600" />
 
-Please refer to the published paper for more details about the setup and the parameters used in the flow graph and code.
-
 ## Testbed Setup and Reference Scenarios
-
+Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server,
 The testbed setup for the experiments is illustrated below:
 
-<img src="testbed_setup.png" alt="Testbed Setup" width="600" /> <!-- Your testbed setup image -->
+<img src="testbed_setup.png" alt="Testbed Setup" width="600" /> 
 
 ### Reference Scenarios
 
