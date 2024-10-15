@@ -17,7 +17,7 @@ Each dataset file contains the following features:
 
 | Feature Name                                             | Description                                                                                           |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| sample                                                  | Unique identifier for each data sample.                                                              |
+| sample                                                  | Unique identifier for each data sample.                                                               |
 | station                                                 | MAC Address for the station transmitting the data.                                                   |
 | tx_total_pkts                                           | Total number of packets transmitted.                                                                  |
 | tx_total_bytes                                          | Total number of bytes transmitted.                                                                     |
@@ -51,7 +51,7 @@ Each dataset file contains the following features:
 The jammers were implemented using GNURadio. Below is the flow graph used for this implementation.
 
 **Flow Graph**
-![Flow Graph](/flow_graph.jpg) 
+<img src="/flow_graph.jpg" alt="Flow Graph" width="600" />
 
 Please refer to the published paper for more details about the setup and the parameters used in the flow graph and code.
 
@@ -59,22 +59,22 @@ Please refer to the published paper for more details about the setup and the par
 
 The testbed setup for the experiments is illustrated below:
 
-![Testbed Setup](testbed_setup.png) <!-- Your testbed setup image -->
+<img src="testbed_setup.png" alt="Testbed Setup" width="600" /> <!-- Your testbed setup image -->
 
 ### Reference Scenarios
 
 The following images demonstrate the scenarios used during the experiments:
 
 #### Line of Sight (LOS) Scenario
-![LOS Scenario](LOS_scenario.png)
+<img src="LOS_scenario.png" alt="LOS Scenario" width="600" />
 
 #### Non-Line of Sight (NLOS) Scenario
-![NLOS Scenario](NLOS_scenario.png)
+<img src="NLOS_scenario.png" alt="NLOS Scenario" width="600" />
 
 ### Additional Scenarios
-![Channels](channels.png)
-![Edge Server](edge_server.png)
-![Noise](noise.png)
+<img src="channels.png" alt="Channels" width="600" />
+<img src="edge_server.png" alt="Edge Server" width="600" />
+<img src="noise.png" alt="Noise" width="600" />
 
 ## Citing This Work
 
