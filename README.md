@@ -18,7 +18,7 @@ Each dataset file contains the following features:
 | Feature Name                                             | Description                                                                                           |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | sample                                                  | Unique identifier for each data sample.                                                              |
-| station                                                 | Identifier for the station transmitting the data.                                                   |
+| station                                                 | MAC Address for the station transmitting the data.                                                   |
 | tx_total_pkts                                           | Total number of packets transmitted.                                                                  |
 | tx_total_bytes                                          | Total number of bytes transmitted.                                                                     |
 | tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                                |
