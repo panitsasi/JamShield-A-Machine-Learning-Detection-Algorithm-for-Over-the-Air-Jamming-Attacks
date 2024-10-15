@@ -45,7 +45,7 @@ Each dataset file contains the following features:
 | per_antenna_rssi_last_rx_data_frame_1-4                 | RSSI for the last received data frame per antenna.                                                     |
 | per_antenna_avg_rssi_rx_data_frames_1-4                 | Average RSSI for received data frames per antenna.                                                     |
 | per_antenna_noise_floor_1-4                             | Noise floor measurements for each antenna.                                                             |
-| sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna                                             |
+| sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna.                                            |
 | attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
 
 <div style="text-align: center;">
