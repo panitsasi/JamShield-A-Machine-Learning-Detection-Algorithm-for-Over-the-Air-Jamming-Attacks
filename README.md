@@ -58,8 +58,8 @@ Our experimental setup is deployed in an area of 80 m². It includes three fixed
 The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="testbed_setup.png" alt="Testbed Setup" width="450" height="500" style="margin-right: 20px;"/> 
-    <img src="edge_server.png" alt="Edge Server" width="450" height="500" />
+    <img src="testbed_setup.png" alt="Testbed Setup" width="450" height="4500" style="margin: 50px;"/> 
+    <img src="edge_server.png" alt="Edge Server" width="450" height="450" />
 </div>
 
 
