@@ -6,7 +6,7 @@ For any inquiries, please contact Ioannis Panitsas at [ioannis.panitsas@yale.edu
 
 ## Dataset
 
-Each dataset corresponds to a specific jamming type. We have implemented three types of jammers: constant, random, and reactive, each with varying output power and different jamming signals. You can access the raw files in the `data` folder:
+Each dataset corresponds to a specific jamming type. We have implemented three types of jammers: constant, random, and reactive, each with varying output power and different jamming signals.We also include datasets without the presence of a jammer. You can access the raw files in the `data` folder:
 
 - [Constant Jammer](data/)
 - [Random Jammer](data/)
@@ -16,35 +16,35 @@ Each dataset corresponds to a specific jamming type. We have implemented three t
 Each dataset file contains the following features:
 
 | Feature Name                                             | Description                                                                                           |
-|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| sample                                                  | Unique identifier for each data sample.                                                               |
-| station                                                 | MAC Address for the station transmitting the data.                                                   |
-| tx_total_pkts                                           | Total number of packets transmitted.                                                                  |
+|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+| sample                                                  | Unique identifier for each data sample.                                                                |
+| station                                                 | MAC Address for the station transmitting the data.                                                     |
+| tx_total_pkts                                           | Total number of packets transmitted.                                                                   |
 | tx_total_bytes                                          | Total number of bytes transmitted.                                                                     |
-| tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                                |
-| tx_ucast_bytes                                          | Total bytes of unicast packets transmitted.                                                           |
-| tx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets transmitted.                                               |
-| tx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets transmitted.                                           |
-| tx_failures                                             | Number of transmission failures.                                                                      |
+| tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                                 |
+| tx_ucast_bytes                                          | Total bytes of unicast packets transmitted.                                                            |
+| tx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets transmitted.                                                 |
+| tx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets transmitted.                                            |
+| tx_failures                                             | Number of transmission failures.                                                                       |
 | rx_data_pkts                                            | Number of received data packets.                                                                       |
-| rx_data_bytes                                           | Total number of bytes received in data packets.                                                      |
+| rx_data_bytes                                           | Total number of bytes received in data packets.                                                        |
 | rx_ucast_pkts                                           | Number of unicast packets received.                                                                    |
 | rx_ucast_bytes                                          | Total bytes of unicast packets received.                                                               |
-| rx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets received.                                                   |
-| rx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets received.                                              |
-| rx_decrypt_succeeds                                     | Number of successful decryption attempts for received packets.                                        |
-| tx_data_pkts_retried                                    | Number of data packets that were retried for transmission.                                           |
-| tx_total_pkts_sent                                      | Total number of packets sent, including retransmissions.                                             |
-| tx_pkts_retries                                         | Total number of packet retries during transmission.                                                  |
-| tx_pkts_retry_exhausted                                 | Number of packets that reached their retry limit without successful transmission.                     |
-| rx_total_pkts_retried                                   | Number of received packets that were retried during reception.                                        |
-| rate_last_tx_pkt_min                                    | Minimum transmission rate for the last transmitted packet (in kbps).                                 |
-| rate_last_tx_pkt_max                                    | Maximum transmission rate for the last transmitted packet (in kbps).                                 |
-| per_antenna_rssi_last_rx_data_frame_1-4                 | RSSI for the last received data frame per antenna.                                                   |
-| per_antenna_avg_rssi_rx_data_frames_1-4                 | Average RSSI for received data frames per antenna.                                                  |
-| per_antenna_noise_floor_1-4                             | Noise floor measurements for each antenna.                                                            |
-| sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna
-| attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                    |
+| rx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets received.                                                    |
+| rx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets received.                                               |
+| rx_decrypt_succeeds                                     | Number of successful decryption attempts for received packets.                                         |
+| tx_data_pkts_retried                                    | Number of data packets that were retried for transmission.                                             |
+| tx_total_pkts_sent                                      | Total number of packets sent, including retransmissions.                                               |
+| tx_pkts_retries                                         | Total number of packet retries during transmission.                                                    |
+| tx_pkts_retry_exhausted                                 | Number of packets that reached their retry limit without successful transmission.                      |
+| rx_total_pkts_retried                                   | Number of received packets that were retried during reception.                                         |
+| rate_last_tx_pkt_min                                    | Minimum transmission rate for the last transmitted packet (in kbps).                                   |
+| rate_last_tx_pkt_max                                    | Maximum transmission rate for the last transmitted packet (in kbps).                                   |
+| per_antenna_rssi_last_rx_data_frame_1-4                 | RSSI for the last received data frame per antenna.                                                     |
+| per_antenna_avg_rssi_rx_data_frames_1-4                 | Average RSSI for received data frames per antenna.                                                     |
+| per_antenna_noise_floor_1-4                             | Noise floor measurements for each antenna.                                                             |
+| sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna                                             |
+| attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
 
 
 ## Implementation
