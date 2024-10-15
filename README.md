@@ -1,6 +1,6 @@
 # JamShield: A Machine Learning Detection Algorithm for Over-the-Air Jamming Attacks
 
-This repository contains the dataset used in the research paper "**JamShield: A Machine Learning Detection Algorithm for Over-the-Air Jamming Attacks**." The research was conducted by **Ioannis Panitsas**, **Yagmur Yigit**, **Leandros Tassiulas**, and **Leandros Maglaras** from Yale University and Edinburgh Napier University.
+This repository contains the dataset used in the research paper "**JamShield: A Machine Learning Detection Algorithm for Over-the-Air Jamming Attacks**." The research was conducted by **Ioannis Panitsas**, **Yagmur Yigit**, **Leandros Tassiulas**, and **Leandros Maglaras** from **Yale University** and **Edinburgh Napier University**.
 
 For any inquiries, please contact Ioannis Panitsas at [ioannis.panitsas@yale.edu](mailto:ioannis.panitsas@yale.edu).
 
