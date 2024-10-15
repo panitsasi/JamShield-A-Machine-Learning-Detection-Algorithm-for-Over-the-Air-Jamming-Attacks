@@ -48,9 +48,10 @@ Each dataset file contains the following features:
 | sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna                                             |
 | attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
 
-<img src="SINR.png" alt="Noise" width="800" />
-<img src="noise.png" alt="Noise" width="800" />
-
+<div style="text-align: center;">
+    <img src="SINR.png" alt="SINR" width="800" />
+    <img src="noise.png" alt="Noise" width="800" />
+</div>
 
 ## Implementation
 The jammers were implemented using GNURadio. Below is the flow graph used for this implementation.
