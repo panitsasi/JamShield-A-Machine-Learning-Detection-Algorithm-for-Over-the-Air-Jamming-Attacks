@@ -48,11 +48,10 @@ Each dataset file contains the following features:
 
 
 ## Implementation
-
-The code was initially implemented in GNURadio and later converted to Python. Below is the flow graph used for the implementation.
+The jammers were implemented using GNURadio. Below is the flow graph used for this implementation.
 
 **Flow Graph**
-![Flow Graph](path/to/your/flow_graph_image.png) <!-- Add your flow graph image here -->
+![Flow Graph](/flow_graph.jpg) 
 
 Please refer to the published paper for more details about the setup and the parameters used in the flow graph and code.
 
