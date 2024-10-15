@@ -69,6 +69,7 @@ Our experimental setup is deployed in an area of 80 m². It includes three fixed
 - **USRP X310:** For generating and transmitting malicious interference signals, we employed the USRP X310 radio from Ettus Research. This open-source Software Defined Radio (SDR) platform features two extended-bandwidth daughter-board slots, supporting frequencies ranging from 10 MHz to 6 GHz. It is equipped with two individually configurable RF channels, each capable of operating at a maximum sample rate of 200 Msps and providing an adequate bandwidth of 160 MHz. Additionally, it has a maximum output power exceeding 20 dBm.
 
 - **Edge Server:** For the training and inference of our proposed **JamShield** ML-based model, we utilized a customized edge server equipped with an AMD EPYC 7352 2.3 GHz 24-core processor, 128 GB of DDR4 RAM, and four NVIDIA RTX A5000 GPUs, each with 24 GB of memory.
+  
 The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
