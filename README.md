@@ -74,11 +74,15 @@ The testbed setup for the experiments is illustrated below:
 To mimic both ideal and challenging link characteristics, we considered two different configurations, referred to as the Line Of Sight (LOS) scenario and the Non-Line Of Sight (NLOS) scenario. In the first scenario, we deployed the jammer in the middle of the lab at a height of three meters, with the wireless nodes positioned around the lab at a distance of six meters and at a height of one meter. The jammer maintained a LOS with the wireless nodes, allowing it to generate interference signals that propagated directly to them without obstruction or multipath reflection. In the second scenario, the jammer was placed in a different location, at a height of one meter. To create an NLOS condition, we obstructed the jammer’s signals with a metallic surface and reduced the transmit power by adding attenuation elements at
 the output of the radio front-end.
 
-#### Line of Sight (LOS) Scenario
-<img src="LOS_scenario.png" alt="LOS Scenario" width="300" />
 
-#### Non-Line of Sight (NLOS) Scenario
-<img src="NLOS_scenario.png" alt="NLOS Scenario" width="300" />
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img src="LOS_scenario.png" alt="LOS Scenario" width="300" style="margin: 50px;"/> 
+    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="300"  />
+</div>
+
+
+
+#### Line of Sight (LOS) Scenario                           Non-Line of Sight (NLOS) Scenario
 
 
 ## Citing This Work
