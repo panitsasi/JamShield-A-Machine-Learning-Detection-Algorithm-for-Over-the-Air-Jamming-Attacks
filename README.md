@@ -75,7 +75,7 @@ The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
     <img src="testbed_setup.png" alt="Testbed Setup" width="400" height="350"/> 
-    <img src="edge_server.png" alt="Edge Server" width="400" height="350" />
+    <img src="edge_server.png" alt="Edge Server" width="400" height="350"/>
 </div>
 
 ### Reference Scenarios
@@ -85,8 +85,8 @@ the output of the radio front-end.
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="LOS_scenario.png" alt="LOS Scenario" width="350" style="margin: 50px;"/> 
-    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="350"  />
+    <img src="LOS_scenario.png" alt="LOS Scenario" width="400"/> 
+    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="400"/>
 </div>
 
 
