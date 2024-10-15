@@ -75,8 +75,8 @@ the output of the radio front-end.
 
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="LOS_scenario.png" alt="LOS Scenario" width="300" style="margin: 50px;"/> 
-    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="300"  />
+    <img src="LOS_scenario.png" alt="LOS Scenario" width="450" style="margin: 50px;"/> 
+    <img src="NLOS_scenario.png" alt="NLOS Scenario" width="450"  />
 </div>
 
 
