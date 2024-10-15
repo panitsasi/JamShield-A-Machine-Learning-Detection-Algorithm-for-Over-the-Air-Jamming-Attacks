@@ -56,7 +56,7 @@ Each dataset file contains the following features:
 ## Implementation
 The jammers were implemented using GNURadio. Below is one the flow graphs that were used for implementing the jammers.
 
-**Flow Graph**
+## Flow Graph
 <img src="/flow_graph.jpg" alt="Flow Graph" width="700" />
 
 ## Testbed Setup 
