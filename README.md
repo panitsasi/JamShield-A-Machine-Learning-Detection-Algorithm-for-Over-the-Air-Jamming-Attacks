@@ -49,23 +49,23 @@ Each dataset file contains the following features:
 | sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna                                             |
 | attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
 
-<img src="SINR.png" alt="Noise" width="900" />
-<img src="noise.png" alt="Noise" width="900" />
+<img src="SINR.png" alt="Noise" width="800" />
+<img src="noise.png" alt="Noise" width="800" />
 
 
 ## Implementation
 The jammers were implemented using GNURadio. Below is the flow graph used for this implementation.
 
 **Flow Graph**
-<img src="/flow_graph.jpg" alt="Flow Graph" width="900" />
+<img src="/flow_graph.jpg" alt="Flow Graph" width="800" />
 
 ## Testbed Setup 
 Our experimental setup is deployed in an area of 80 m². It includes three fixed-position wireless nodes, two OnePlus 8T smartphones, one wireless access point (AP), one USRP X310, and one edge server (for training/inference of our ML model),
 The testbed setup for the experiments is illustrated below:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img src="testbed_setup.png" alt="Testbed Setup" width="450" height="400" style="margin: 50px;"/> 
-    <img src="edge_server.png" alt="Edge Server" width="450" height="400" />
+    <img src="testbed_setup.png" alt="Testbed Setup" width="550" height="400" style="margin: 50px;"/> 
+    <img src="edge_server.png" alt="Edge Server" width="550" height="400" />
 </div>
 
 ### Reference Scenarios
