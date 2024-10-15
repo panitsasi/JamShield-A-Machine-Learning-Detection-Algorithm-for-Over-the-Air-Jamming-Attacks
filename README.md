@@ -62,7 +62,7 @@ Our experimental setup is deployed in an area of 80 m². It includes three fixed
 
 - **Wireless Nodes:** Each wireless node is a Linux PC with an Intel WLAN 8265/8275 wireless network adapter supporting 802.11 standards.
 
-- **OnePlus 8T Smartphones:** Each smartphone is equipped with the Qualcomm FastConnect 6900 Wi-Fi chipset. The initial locations of the smartphones are illustrated in Figure 2. During our experiments, the smartphones were placed in various locations within the lab at random intervals.
+- **OnePlus 8T Smartphones:** Each smartphone is equipped with the Qualcomm FastConnect 6900 Wi-Fi chipset. During our experiments, the smartphones were placed in various locations within the lab at random intervals.
 
 - **Wireless Access Point (AP):** In this work, we utilized the ASUS RT-AX88U Pro as the AP. This device supports wireless standards, including 802.11, and operates simultaneously in dual-band (2.4 GHz and 5 GHz) modes. It features 2x2 antennas for enhanced beamforming and supports channel capacities ranging from 20 to 160 MHz, with a maximum output power of 20 dBm.
 
