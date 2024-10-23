@@ -50,15 +50,15 @@ Each dataset file contains the following features:
 | per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                                |
 | per_antenna_avg_rssi_rx_data_frames_3                   | Average RSSI for all received data frames on antenna 3.                                                |
 | per_antenna_avg_rssi_rx_data_frames_4                   | Average RSSI for all received data frames on antenna 4.                                                |
-| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1, indicating background noise level.                              |
-| per_antenna_noise_floor_2                               | Noise floor measurement for antenna 2, indicating background noise level.                              |
-| per_antenna_noise_floor_3                               | Noise floor measurement for antenna 3, indicating background noise level.                              |
-| per_antenna_noise_floor_4                               | Noise floor measurement for antenna 4, indicating background noise level.                              |
-| sinr_per_antenna_1                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 1, indicating signal quality.               |
-| sinr_per_antenna_2                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 2, indicating signal quality.               |
-| sinr_per_antenna_3                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 3, indicating signal quality.               |
-| sinr_per_antenna_4                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 4, indicating signal quality.               |
-| attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
+| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1.                                                                 |
+| per_antenna_noise_floor_2                               | Noise floor measurement for antenna 2.                                                                 |
+| per_antenna_noise_floor_3                               | Noise floor measurement for antenna 3.                                                                 |
+| per_antenna_noise_floor_4                               | Noise floor measurement for antenna 4.                                                                 |
+| sinr_per_antenna_1                                      | SINR for antenna 1, indicating signal quality.                                                         |
+| sinr_per_antenna_2                                      | SINR for antenna 2, indicating signal quality.                                                         |
+| sinr_per_antenna_3                                      | SINR for antenna 3, indicating signal quality.                                                         |
+| sinr_per_antenna_4                                      | SINR for antenna 4, indicating signal quality.                                                         |
+| attack                                                  | Indicator of whether an attack is present (0 for normal operation, 1 for attack).                      |
 
 
 <div style="text-align: center;">
