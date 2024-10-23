@@ -17,48 +17,48 @@ Each dataset corresponds to a specific jamming type. We have implemented three t
 
 Each dataset file contains the following features:
 
-| #  | Feature Name                                             | Description                                                                                           |
+| #  | Feature Name                                             | Description                                                                                     |
 |----|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 1  | sample                                                  | Unique identifier for each data sample.                                                             |
-| 2  | station                                                 | MAC Address for the station transmitting the data.                                                  |
-| 3  | tx_total_pkts                                           | Total number of packets transmitted.                                                                  |
-| 4  | tx_total_bytes                                          | Total number of bytes transmitted.                                                                    |
-| 5  | tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                                |
-| 6  | tx_ucast_bytes                                          | Total bytes of unicast packets transmitted.                                                           |
-| 7  | tx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets transmitted.                                               |
-| 8  | tx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets transmitted.                                           |
-| 9  | tx_failures                                             | Number of transmission failures.                                                                      |
-| 10 | rx_data_pkts                                            | Number of received data packets.                                                                      |
-| 11 | rx_data_bytes                                           | Total number of bytes received in data packets.                                                       |
-| 12 | rx_ucast_pkts                                           | Number of unicast packets received.                                                                   |
-| 13 | rx_ucast_bytes                                          | Total bytes of unicast packets received.                                                              |
-| 14 | rx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets received.                                                   |
-| 15 | rx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets received.                                              |
-| 16 | rx_decrypt_succeeds                                     | Number of successful decryption attempts for received packets.                                        |
-| 17 | tx_data_pkts_retried                                    | Number of data packets that were retried for transmission.                                            |
-| 18 | tx_total_pkts_sent                                      | Total number of packets sent, including retransmissions.                                              |
-| 19 | tx_pkts_retries                                         | Total number of packet retries during transmission.                                                   |
-| 20 | tx_pkts_retry_exhausted                                 | Number of packets that reached their retry limit without successful transmission.                     |
-| 21 | rx_total_pkts_retried                                   | Number of received packets that were retried during reception.                                        |
-| 22 | rate_last_tx_pkt_min                                    | Minimum transmission rate for the last transmitted packet (in kbps).                                  |
-| 23 | rate_last_tx_pkt_max                                    | Maximum transmission rate for the last transmitted packet (in kbps).                                  |
-| 24 | per_antenna_rssi_last_rx_data_frame_1                   | RSSI for the last received data frame on antenna 1.                                                 |
-| 25 | per_antenna_rssi_last_rx_data_frame_2                   | RSSI for the last received data frame on antenna 2.                                                 |
-| 26 | per_antenna_rssi_last_rx_data_frame_3                   | RSSI for the last received data frame on antenna 3.                                                 |
-| 27 | per_antenna_rssi_last_rx_data_frame_4                   | RSSI for the last received data frame on antenna 4.                                                 |
-| 28 | per_antenna_avg_rssi_rx_data_frames_1                   | Average RSSI for all received data frames on antenna 1.                                             |
-| 29 | per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                             |
-| 30 | per_antenna_avg_rssi_rx_data_frames_3                   | Average RSSI for all received data frames on antenna 3.                                             |
-| 31 | per_antenna_avg_rssi_rx_data_frames_4                   | Average RSSI for all received data frames on antenna 4.                                             |
-| 32 | per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1.                                                                |
-| 33 | per_antenna_noise_floor_2                               | Noise floor measurement for antenna 2.                                                                |
-| 34 | per_antenna_noise_floor_3                               | Noise floor measurement for antenna 3.                                                                |
-| 35 | per_antenna_noise_floor_4                               | Noise floor measurement for antenna 4.                                                                |
-| 36 | sinr_per_antenna_1                                      | SINR for antenna 1, indicating signal quality.                                                        |
-| 37 | sinr_per_antenna_2                                      | SINR for antenna 2, indicating signal quality.                                                        |
-| 38 | sinr_per_antenna_3                                      | SINR for antenna 3, indicating signal quality.                                                        |
-| 39 | sinr_per_antenna_4                                      | SINR for antenna 4, indicating signal quality.                                                        |
-| 40 | attack                                                  | Indicator of whether an attack is present (0 for normal operation, 1 for attack).                     |
+| 1  | sample                                                  | Unique identifier for each data sample.                                                     |
+| 2  | station                                                 | MAC Address for the station transmitting the data.                                          |
+| 3  | tx_total_pkts                                           | Total number of packets transmitted.                                                        |
+| 4  | tx_total_bytes                                          | Total number of bytes transmitted.                                                          |
+| 5  | tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                      |
+| 6  | tx_ucast_bytes                                          | Total bytes of unicast packets transmitted.                                                 |
+| 7  | tx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets transmitted.                                      |
+| 8  | tx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets transmitted.                                 |
+| 9  | tx_failures                                             | Number of transmission failures.                                                            |
+| 10 | rx_data_pkts                                            | Number of received data packets.                                                            |
+| 11 | rx_data_bytes                                           | Total number of bytes received in data packets.                                             |
+| 12 | rx_ucast_pkts                                           | Number of unicast packets received.                                                         |
+| 13 | rx_ucast_bytes                                          | Total bytes of unicast packets received.                                                    |
+| 14 | rx_mcast_bcast_pkts                                     | Number of multicast and broadcast packets received.                                         |
+| 15 | rx_mcast_bcast_bytes                                    | Total bytes of multicast and broadcast packets received.                                    |
+| 16 | rx_decrypt_succeeds                                     | Number of successful decryption attempts for received packets.                              |
+| 17 | tx_data_pkts_retried                                    | Number of data packets that were retried for transmission.                                  |
+| 18 | tx_total_pkts_sent                                      | Total number of packets sent, including retransmissions.                                    |
+| 19 | tx_pkts_retries                                         | Total number of packet retries during transmission.                                         |
+| 20 | tx_pkts_retry_exhausted                                 | Number of packets that reached their retry limit without successful transmission.           |
+| 21 | rx_total_pkts_retried                                   | Number of received packets that were retried during reception.                              |
+| 22 | rate_last_tx_pkt_min                                    | Minimum transmission rate for the last transmitted packet.                                  |
+| 23 | rate_last_tx_pkt_max                                    | Maximum transmission rate for the last transmitted packet.                                  |
+| 24 | per_antenna_rssi_last_rx_data_frame_1                   | RSSI for the last received data frame on antenna 1.                                         |
+| 25 | per_antenna_rssi_last_rx_data_frame_2                   | RSSI for the last received data frame on antenna 2.                                         |
+| 26 | per_antenna_rssi_last_rx_data_frame_3                   | RSSI for the last received data frame on antenna 3.                                         |
+| 27 | per_antenna_rssi_last_rx_data_frame_4                   | RSSI for the last received data frame on antenna 4.                                         |
+| 28 | per_antenna_avg_rssi_rx_data_frames_1                   | Average RSSI for all received data frames on antenna 1.                                     |
+| 29 | per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                     |
+| 30 | per_antenna_avg_rssi_rx_data_frames_3                   | Average RSSI for all received data frames on antenna 3.                                     |
+| 31 | per_antenna_avg_rssi_rx_data_frames_4                   | Average RSSI for all received data frames on antenna 4.                                     |
+| 32 | per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1.                                                      |
+| 33 | per_antenna_noise_floor_2                               | Noise floor measurement for antenna 2.                                                      |
+| 34 | per_antenna_noise_floor_3                               | Noise floor measurement for antenna 3.                                                      |
+| 35 | per_antenna_noise_floor_4                               | Noise floor measurement for antenna 4.                                                      |
+| 36 | sinr_per_antenna_1                                      | SINR for antenna 1, indicating signal quality.                                              |
+| 37 | sinr_per_antenna_2                                      | SINR for antenna 2, indicating signal quality.                                              |
+| 38 | sinr_per_antenna_3                                      | SINR for antenna 3, indicating signal quality.                                              |
+| 39 | sinr_per_antenna_4                                      | SINR for antenna 4, indicating signal quality.                                              |
+| 40 | attack                                                  | Indicator of whether an attack is present (0 for normal operation, 1 for attack).           |
 
 
 
