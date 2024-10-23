@@ -42,11 +42,24 @@ Each dataset file contains the following features:
 | rx_total_pkts_retried                                   | Number of received packets that were retried during reception.                                         |
 | rate_last_tx_pkt_min                                    | Minimum transmission rate for the last transmitted packet (in kbps).                                   |
 | rate_last_tx_pkt_max                                    | Maximum transmission rate for the last transmitted packet (in kbps).                                   |
-| per_antenna_rssi_last_rx_data_frame_1-4                 | RSSI for the last received data frame per antenna.                                                     |
-| per_antenna_avg_rssi_rx_data_frames_1-4                 | Average RSSI for received data frames per antenna.                                                     |
-| per_antenna_noise_floor_1-4                             | Noise floor measurements for each antenna.                                                             |
-| sinr_per_antenna_1-4                                    | Signal-to-Interference-plus-Noise Ratio (SINR) per antenna.                                            |
+| per_antenna_rssi_last_rx_data_frame_1                   | RSSI for the last received data frame on antenna 1.                                                    |
+| per_antenna_rssi_last_rx_data_frame_2                   | RSSI for the last received data frame on antenna 2.                                                    |
+| per_antenna_rssi_last_rx_data_frame_3                   | RSSI for the last received data frame on antenna 3.                                                    |
+| per_antenna_rssi_last_rx_data_frame_4                   | RSSI for the last received data frame on antenna 4.                                                    |
+| per_antenna_avg_rssi_rx_data_frames_1                   | Average RSSI for all received data frames on antenna 1.                                                |
+| per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                                |
+| per_antenna_avg_rssi_rx_data_frames_3                   | Average RSSI for all received data frames on antenna 3.                                                |
+| per_antenna_avg_rssi_rx_data_frames_4                   | Average RSSI for all received data frames on antenna 4.                                                |
+| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1, indicating background noise level.                              |
+| per_antenna_noise_floor_2                               | Noise floor measurement for antenna 2, indicating background noise level.                              |
+| per_antenna_noise_floor_3                               | Noise floor measurement for antenna 3, indicating background noise level.                              |
+| per_antenna_noise_floor_4                               | Noise floor measurement for antenna 4, indicating background noise level.                              |
+| sinr_per_antenna_1                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 1, indicating signal quality.               |
+| sinr_per_antenna_2                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 2, indicating signal quality.               |
+| sinr_per_antenna_3                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 3, indicating signal quality.               |
+| sinr_per_antenna_4                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 4, indicating signal quality.               |
 | attack                                                  | Indicator of whether an attack is present (1 for attack, 0 for normal operation).                      |
+
 
 <div style="text-align: center;">
     <img src="SINR.png" alt="SINR" width="800" />
