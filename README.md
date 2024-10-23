@@ -90,9 +90,8 @@ To identify the most important features from the initial dataset of 40 features 
 | per_antenna_rssi_last_rx_data_frame_2                   | RSSI for the last received data frame on antenna 2.                                                    |
 | per_antenna_avg_rssi_rx_data_frames_1                   | Average RSSI for all received data frames on antenna 1.                                                |
 | per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                                |
-| sinr_per_antenna_1                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 1, indicating signal quality.                
-| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1, indicating background noise level.                              
-
+| sinr_per_antenna_1                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 1, indicating signal quality.                |
+| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1, indicating background noise level.                              |
 
 
 
