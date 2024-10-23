@@ -66,6 +66,36 @@ Each dataset file contains the following features:
     <img src="noise.png" alt="Noise" width="800" />
 </div>
 
+
+
+## Feature Selection
+
+To identify the most important features from the initial dataset of 40 features collected from our testbed, we employed two key techniques: Principal Component Analysis (PCA) and Mutual Information (MI). PCA was used to transform the 40 original features into a smaller set of principal components, capturing the most significant variance in the data. Meanwhile, MI assessed the relevance of each feature to the target variable (attack presence), highlighting the most critical factors for detection. The results from both methods were integrated using a weighted voting mechanism, which ultimately selected the 20 most relevant features for jamming attack classification. The final set of features selected for jamming attack classification are the following: 
+
+| tx_total_pkts                                           | Total number of packets transmitted.                                                                   |
+| tx_total_bytes                                          | Total number of bytes transmitted.                                                                     |
+| tx_ucast_pkts                                           | Number of unicast packets transmitted.                                                                 |
+| tx_ucast_bytes                                          | Total bytes of unicast packets transmitted.                                                            |
+| tx_failures                                             | Number of transmission failures.                                                                       |
+| rx_data_pkts                                            | Number of data packets received.                                                                       |
+| rx_ucast_pkts                                           | Number of unicast packets received.                                                                    |
+| rx_data_bytes                                           | Total bytes received in data packets.                                                                  |
+| tx_data_pkts_retried                                    | Number of data packets that required retransmission.                                                   |
+| tx_total_pkts_sent                                      | Total number of packets sent, including retransmissions.                                               |
+| tx_pkts_retries                                         | Total number of packet retransmission attempts.                                                        |
+| tx_pkts_retry_exhausted                                 | Number of packets that exhausted all retry attempts without success.                                   |
+| rate_last_tx_pkt_min                                    | Minimum transmission rate of the last transmitted packet (in kbps).                                    |
+| rate_last_tx_pkt_max                                    | Maximum transmission rate of the last transmitted packet (in kbps).                                    |
+| per_antenna_rssi_last_rx_data_frame_1                   | RSSI for the last received data frame on antenna 1.                                                    |
+| per_antenna_rssi_last_rx_data_frame_2                   | RSSI for the last received data frame on antenna 2.                                                    |
+| per_antenna_avg_rssi_rx_data_frames_1                   | Average RSSI for all received data frames on antenna 1.                                                |
+| per_antenna_avg_rssi_rx_data_frames_2                   | Average RSSI for all received data frames on antenna 2.                                                |
+| sinr_per_antenna_1                                      | Signal-to-Interference-plus-Noise Ratio (SINR) for antenna 1, indicating signal quality.                
+| per_antenna_noise_floor_1                               | Noise floor measurement for antenna 1, indicating background noise level.                              
+
+
+
+
 ## Implementation (Flow Graph)
 The jammers were implemented using GNURadio. Below is one the flow graphs that were used for implementing the jammers.
 <img src="/flow_graph.jpg" alt="Flow Graph" width="700" />
