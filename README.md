@@ -18,7 +18,7 @@ Each dataset corresponds to a specific jamming type. We have implemented three t
 Each dataset file contains the following features:
 
 | #  | Feature Name                                             | Description                                                                                     |
-|----|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+|----|---------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 1  | sample                                                  | Unique identifier for each data sample.                                                     |
 | 2  | station                                                 | MAC Address for the station transmitting the data.                                          |
 | 3  | tx_total_pkts                                           | Total number of packets transmitted.                                                        |
